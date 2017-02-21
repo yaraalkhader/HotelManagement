@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    
+    <ui:define name="content">
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:outputText value="Name"></h:outputText>
+                <h:inputText value="#{hotelMngView.destinationName}"></h:inputText>
+                
+            </h:panelGrid>
+            <h:commandButton value="Search" action="#{hotelMngView.search}"></h:commandButton>
+        </h:form>
+        
+        <h:dataTable value="#{hotelMngView.list}" var="hotel">
+        	
+        	
+        	<h:column>
+    				
+    				<f:facet name="header">Name</f:facet>
+    				
+    				#{hotel.name}
+    			</h:column>
+        	
+        </h:dataTable>
+    </ui:define>
+    
+</ui:composition>
+</html>

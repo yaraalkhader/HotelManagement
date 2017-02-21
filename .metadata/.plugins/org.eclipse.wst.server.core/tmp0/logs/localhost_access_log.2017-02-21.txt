@@ -1,0 +1,8 @@
+127.0.0.1 - - [21/Feb/2017:11:52:59 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:11:53:00 +0200] "GET /HotelManagement/faces/Hotels.xhtml HTTP/1.1" 500 2799
+127.0.0.1 - - [21/Feb/2017:11:53:42 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:11:53:43 +0200] "GET /HotelManagement/faces/Hotels.xhtml HTTP/1.1" 200 1690
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:11:53:46 +0200] "POST /HotelManagement/faces/Hotels.xhtml HTTP/1.1" 500 4507
+127.0.0.1 - - [21/Feb/2017:11:54:40 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:11:54:41 +0200] "GET /HotelManagement/faces/Hotels.xhtml HTTP/1.1" 200 1690
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:11:54:51 +0200] "POST /HotelManagement/faces/Hotels.xhtml HTTP/1.1" 200 209813
